@@ -1,0 +1,126 @@
+# Rephrased Version
+
+This time, you can handle about 50% of shipping operations. I’m currently working at my school’s center, and I think right now we’re at a point where we have about 5 minutes to discuss this each year, so it’s not really extensive. Some people may already know what they’re doing in this space.
+
+**Background and Role**
+
+I currently work as a member of my college’s technology staff. In a nutshell, we operate as an additional development team. We analyze projects and work with various models and systems. We’re able to customize solutions and provide them, though there are considerations around pricing and scale.
+
+I’m originally from a different region, but I’ve been working in this field across various locations. Looking back over the past few years, I’ve seen how these operations have evolved. The technology has advanced significantly - what might have taken two years to learn in the past can now be accomplished much more quickly. We’ve seen exponential growth in our engineering capabilities, and our team has become increasingly specialized.
+
+**AI Integration Journey**
+
+One key area where AI is making an impact is in how people approach their work. I’ve been thinking about this for a while - maybe 30 years from now, we’ll look back at this period as transformative. I think we’re at a point where people are just beginning to realize what AI can do. Right now, AIs are able to handle a lot of routine work, which is exciting.
+
+Let me share a bit about my background: I’m working as a data scientist, and recently I’ve been exploring how AI can help our team. We work on various projects, and while we have team members from the EU, we also have a center focused on common standards and development.
+
+**Standards and Development Process**
+
+We focus on two main areas:
+
+1. **Project development methodology** - ensuring consistency across teams
+1. **Process standardization** - building frameworks, models, and approaches that work across the entire organization
+
+We operate at a very large scale across multiple countries, so it’s super important to have standards that everyone follows. This ensures consistency in both initial development and ongoing maintenance.
+
+My role has evolved to focus on what I call the “developer enablement” side - helping people across the organization understand and adopt these concepts. We’re trying to bring technology to people in a way that improves their daily work.
+
+**Practical AI Adoption**
+
+Traditionally, we’ve had challenges because the learning curve was very steep. I’ve been working to change that through hands-on sessions with teams. Instead of just theoretical training, we’re doing practical work - showing people from finance, operations, and other departments how to use these tools for their own problems and tasks.
+
+It doesn’t have to be super complicated. Sometimes simple improvements in data handling can lead to significant gains in productivity. The key is making it accessible and demonstrating value quickly.
+
+What I’ve increasingly seen is that AI and development centers need to work together. We have to be practical about implementation while also maintaining governance standards.
+
+**The Turning Point**
+
+I’ve been with this company for about 10 years, and there’s a significant difference I want to highlight. As the team grows, complications arise, but we need to figure out how to iterate quickly and maintain quality.
+
+In January of this year, I decided we’d reached a point where AI coding tools could genuinely speed up our work. I challenged myself to test this - could I use AI to build a foundational product quickly?
+
+I started using AI coding tools myself and realized they could help develop an idea into a working prototype in a very short time. However, after about 3-4 weeks, I noticed that most team members weren’t really adopting them effectively. I realized it’s like introducing any new technology - you need proper onboarding and training.
+
+**One-on-One Enablement**
+
+I started doing one-on-one sessions, asking people: “What problems are you having right now? What’s stopping you? What are you trying to achieve?” Then we’d work through it together.
+
+I remember one session where someone said a task would take 4-5 days. I suggested we try to finish it in the session - just five minutes of focused AI-assisted work. We were often able to complete tasks in that timeframe. Each time this happened, I could see their faces light up with realization: “Oh my god, this can actually work.”
+
+The key was teaching them *how* to use these tools effectively. We started sharing these learnings and best practices across the organization. For example, understanding AI context windows, maintaining code quality, and when automation makes sense.
+
+**Adoption Strategy**
+
+Now, AI is embedded in our daily work. When people build solutions, they naturally incorporate AI tools. It started with early adopters, then spread one by one across the university.
+
+This was good timing because we’re seeing both the opportunities and the challenges of AI - including important considerations around ethics, liability, and responsible use.
+
+**Structured Approach by Experience Level**
+
+In terms of how we guide adoption, we have different approaches based on seniority:
+
+**Junior Engineers**: They can use AI chat interfaces for basic queries - asking questions, getting context, working through problems. This is fundamental AI usage for coding. They need to understand the output, digest it, and integrate it thoughtfully into their work. I don’t recommend juniors just copying and pasting AI-generated code without review. They need to study and understand before implementing.
+
+**Intermediate Engineers**: After about one month of experience with AI tools, they can take on more responsibility. As they become more knowledgeable and their technical foundations get stronger, they can use AI more independently and effectively.
+
+**Senior Engineers**: We’re not quite at the point of fully autonomous AI coding yet. Senior engineers still review every piece of AI-generated code carefully. They look for edge cases, potential issues, and ensure everything aligns with our standards. This is crucial because even small errors can have significant consequences in production.
+
+**Quality Assurance**
+
+Coming back to quality - just like you want your product to work reliably in production, we need to ensure our AI-assisted code meets high standards.
+
+One approach we’ve taken is creating clear pathways and frameworks. For example, we use TypeScript for type checking at build time, catching bugs before code reaches production. We’ve migrated more and more of our codebase to use strong typing.
+
+We also emphasize comprehensive testing. We set up automation to ensure things work as expected. It’s not just about AI - any high-quality software company should have these practices. But AI makes these safeguards even more important because AI-generated code requires extra scrutiny.
+
+**Infrastructure and Best Practices**
+
+We’ve set up good development practices: developers should have local test environments where they can experiment safely without affecting the production system. These foundational elements benefit everyone.
+
+Small changes can have big impacts. For example, in our configuration files, I added a feature where only the last 20 lines of test output show in the logs. These small quality-of-life improvements add up. They prevent context overload and help developers iterate faster.
+
+**Security and Privacy**
+
+One poster highlighted an important question: How do you ensure data privacy and security when using AI, especially in regulated industries?
+
+That’s a great question. Let me break down our approach:
+
+**1. On-Premise Deployment**: Our company offers an enterprise application that can be deployed on-premise. Anything you need, including the AI models, runs on your own infrastructure. No data is sent back to external servers. It stays within your environment - completely private and secure.
+
+**2. Context Customization**: We help enterprises fine-tune models with their specific data. For example, if you’re in finance, healthcare, or any specialized domain, you want the AI to understand your industry’s terminology, your company’s processes, and your specific data. We do this through model fine-tuning with relevant company data or through feedback loops. This ensures the model performs very well on your specific content and use cases, rather than just being a general-purpose model.
+
+**3. Evaluation and Validation**: You need to validate that the AI performs well for your needs. We help customers set up proper evaluation frameworks to ensure the AI meets their quality standards before deployment. This is especially important for regulated industries.
+
+**Balancing Innovation and Governance**
+
+This brings up a common challenge: How do you balance flexibility and experimentation with proper governance?
+
+There’s always tension between moving fast to experiment with new AI capabilities and maintaining the controls needed for enterprise environments. Both are important, and finding the right balance is crucial.
+
+**Environment Management**: We use multiple environments with clear promotion paths. For all new features and library packages, there’s an approval process. Changes are developed and tested in lower environments first. Once validated by development and security teams, they can be promoted to higher environments like staging and eventually production.
+
+This gated process ensures proper testing and security review before anything reaches production systems. You need clear responsibilities - people developing features are separate from those approving and promoting them through environments.
+
+**The Future of Software Engineering with AI**
+
+This leads to the final topic: What’s the future of software engineering in an AI world? It’s a question everyone’s asking.
+
+I think one thing is clear: the software engineer role now is far more productive than it was 3-4 years ago because of AI tools and capabilities.
+
+What we’re seeing is that teams can now move much faster with higher output per engineer. The general trend is toward **smaller, more capable teams** - fewer people doing much more work per person. This allows companies to move faster while maintaining or even improving quality.
+
+**Essential Skills Going Forward**
+
+From my point of view, certain skills become even more important:
+
+**1. Strong Fundamentals**: You need solid foundational knowledge. Understanding core concepts deeply allows you to effectively guide and validate AI output.
+
+**2. Analytical Thinking**: You need to be able to analyze whether AI suggestions make sense. Can you identify if the API design it proposes is appropriate for your use case? Is it using the right patterns?
+
+**3. Research and Pattern Recognition**: For example, if you need to create an API right now, there are many frameworks to choose from - REST, GraphQL, gRPC. For architecture, there are different patterns: monolithic, microservices, event-driven, etc. Each pattern generates different code structures.
+
+The key ability is research - understanding from AI tools what different patterns exist, what the tradeoffs are, and then making informed decisions. You need to understand the options, evaluate which patterns fit your requirements, and guide the AI accordingly.
+
+**Conclusion**
+
+In summary, AI is transforming how we work, but success requires thoughtful adoption, strong fundamentals, proper governance, and continuous learning. The engineers who thrive will be those who can effectively collaborate with AI while maintaining high standards and deep understanding of their craft.​​​​​​​​​​​​​​​​
